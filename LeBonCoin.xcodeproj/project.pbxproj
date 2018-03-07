@@ -12,6 +12,8 @@
 		BA00BD2B20501B1B00CAA998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA00BD2920501B1B00CAA998 /* Main.storyboard */; };
 		BA00BD2D20501B1B00CAA998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA00BD2C20501B1B00CAA998 /* Assets.xcassets */; };
 		BA00BD3020501B1B00CAA998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA00BD2E20501B1B00CAA998 /* LaunchScreen.storyboard */; };
+		BA00BD3820501E8300CAA998 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00BD3720501E8300CAA998 /* Cell.swift */; };
+		BA00BD3A20502B0A00CAA998 /* DetailsProductsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00BD3920502B0A00CAA998 /* DetailsProductsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BA00BD2C20501B1B00CAA998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA00BD2F20501B1B00CAA998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA00BD3120501B1B00CAA998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA00BD3720501E8300CAA998 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		BA00BD3920502B0A00CAA998 /* DetailsProductsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsProductsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				BA00BD2C20501B1B00CAA998 /* Assets.xcassets */,
 				BA00BD2E20501B1B00CAA998 /* LaunchScreen.storyboard */,
 				BA00BD3120501B1B00CAA998 /* Info.plist */,
+				BA00BD3720501E8300CAA998 /* Cell.swift */,
+				BA00BD3920502B0A00CAA998 /* DetailsProductsController.swift */,
 			);
 			path = LeBonCoin;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA00BD3A20502B0A00CAA998 /* DetailsProductsController.swift in Sources */,
 				BA00BD2820501B1B00CAA998 /* ViewController.swift in Sources */,
 				BA00BD2620501B1B00CAA998 /* AppDelegate.swift in Sources */,
+				BA00BD3820501E8300CAA998 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
